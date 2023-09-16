@@ -28,6 +28,9 @@
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   },
+  "lint-staged": {
+    "src/**/*.ts": "yarn lint-format"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
